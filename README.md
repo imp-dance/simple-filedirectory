@@ -11,8 +11,6 @@ You can drag & drop uploads, list and/or search through your uploads, embed pict
 You can currently only upload one file at the time.
 
 ## setup
-To setup, simply download all the files and put them in an empty directory on your server (make sure you also make /files/). **List.php ignores the first file from "/files/"**, you should just put an empty .htaccess in if you don't have an .htaccess to avoid having any issues with this. **To change the site password** go to index.php and change `if (@$_GET['k']=='YOURURLPASSWORD'){` on line 6. Change "k" and "YOURURLPASSWORD" to whatever you want, and access the site at http://yourdomain.com/?k=YOURURLPASSWORD with "k" and "YOURURLPASSWORD" changed to whatever you changed it to. 
-
 ### in steps...
 1. Download all files as a zip or fork this repo.
 2. Upload all the files onto your domain
