@@ -1,7 +1,7 @@
 <?php
 $msg = $_GET['n'];
 if ($msg == 1){
-    $feed = "<span class='cmd-cont'>File successfully uploaded to <a target='_blank' class='filelink' href='http://cmd.underbakke.net/files/".$_GET['url']."'>".$_GET['url']."</a><br/>Type 'copy' to copy, or 'go' to redirect to file.";
+    $feed = "<span class='cmd-cont'>File successfully uploaded to <a target='_blank' class='filelink' href='files/".$_GET['url']."'>".$_GET['url']."</a><br/>Type 'copy' to copy, or 'go' to redirect to file.";
 }
 if (@$_GET['k']=='YOURURLPASSWORD'){
 ?><!doctype html>
