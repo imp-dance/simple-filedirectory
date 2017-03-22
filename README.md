@@ -25,3 +25,6 @@ To setup, simply download all the files and put them in an empty directory on yo
 
 ## demo
 Demo can be found here: http://simple-filedirectory.underbakke.net/?k=YOURURLPASSWORD (the actual upload script is removed though because the link is public).
+
+## known bugs
+ * Drag to upload sometimes doesn't work after using cls/clear.
