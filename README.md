@@ -21,7 +21,7 @@ To setup, simply download all the files and put them in an empty directory on yo
 4. In the files folder, create an .htaccess file if you don't have one. You can leave it empty if you need to create one.
 5. In *index.php* on line 6, change `if (@$_GET['k']=='YOURURLPASSWORD'){` to a combination you want to use as a password.
 
-   The 'k' and 'YOURURLPASSWORD' will be used to access your site by adding /?k=YOURURLPASSWORD to your url.
+    > The 'k' and 'YOURURLPASSWORD' will be used to access your site by adding /?k=YOURURLPASSWORD to your url.
 
 ## demo
 Demo can be found here: http://simple-filedirectory.underbakke.net/?k=YOURURLPASSWORD (the actual upload script is removed though because the link is public).
