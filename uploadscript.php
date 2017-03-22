@@ -20,6 +20,6 @@ if(move_uploaded_file($_FILES['fileupload']['tmp_name'], 'files/' . $filenamedir
     echo json_encode($response_array);
 } 
 }else{
-    echo "pikk";
+    echo "hm";
 }
 ?>
