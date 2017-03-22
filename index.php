@@ -8,7 +8,7 @@ if (@$_GET['k']=='YOURURLPASSWORD'){
 <html>
 <head>
 	<title>cmd</title>
-	<link rel="stylesheet" href="style.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div id="input">
