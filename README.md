@@ -25,7 +25,7 @@ You can currently only upload one file at the time.
 > The reason for the htaccess file is because you might want to change permissions in that folder, and list.php is programmed to ignore the first file, which always is .htaccess unless you don't have one, then it ignores one of your files. You could also of course go in and manually edit out the first ignore if you want to do that too.
 
 ## demo
-Demo can be found here: http://simple-filedirectory.underbakke.net/?k=YOURURLPASSWORD (the actual upload script is removed though because the link is public).
+Demo can be found here: http://simple-filedirectory.underbakke.net/?k=YOURURLPASSWORD (the actual upload script is removed though because the link is public, it has some files uploaded though).
 
 ## known bugs
  * Drag to upload sometimes doesn't work after using cls/clear.
