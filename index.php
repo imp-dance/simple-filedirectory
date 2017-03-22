@@ -48,7 +48,7 @@ if (@$_GET['k']=='YOURURLPASSWORD'){
 	<?php
 	}
 	?>
-	<script src="script.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
 <?php
