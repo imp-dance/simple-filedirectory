@@ -1,5 +1,5 @@
 # simple-filedirectory
-A simple solution with minimal setup to get a console on your website with file uploading/downloading, no database needed.
+A simple solution with minimal setup to get an interface on your website for file uploading/downloading - no database needed.
 ***
 ![ImagePreview1](http://i.imgur.com/HVEADcR.png "Image preview 1")
 ![ImagePreview2](http://i.imgur.com/o6bOoAT.png "Image preview 2")
