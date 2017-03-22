@@ -1,5 +1,5 @@
 # simple-filedirectory
-A simple solution without setup to get a console on your website with file uploading/downloading
+A simple solution with minimal setup to get a console on your website with file uploading/downloading
 ![ImagePreview1](http://i.imgur.com/HVEADcR.png "Image preview 1")
 ![ImagePreview2](http://i.imgur.com/o6bOoAT.png "Image preview 2")
 
