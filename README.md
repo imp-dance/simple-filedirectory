@@ -28,3 +28,6 @@ Demo can be found here: http://simple-filedirectory.underbakke.net/?k=YOURURLPAS
 
 ## known bugs
  * Drag to upload sometimes doesn't work after using cls/clear.
+
+## contributions 
+Any contributions to the repository would be welcome and appreciated. 
