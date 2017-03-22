@@ -16,8 +16,8 @@ To setup, simply download all the files and put them in an empty directory on yo
 1. Download all files as a zip or fork this repo.
 2. Upload all the files onto your domain
 3. If you are not uploading the files to root:
-⋅⋅* Go into uploadscript.php
-⋅⋅* On line 16, edit `"Location: /?k=a&n=1&url="` to the correct location. For example: `"Location: /subFolder1/subFolder2/?k=a&n=1&url="`
+  * Go into uploadscript.php
+  * On line 16, edit `"Location: /?k=a&n=1&url="` to the correct location. For example: `"Location: /subFolder1/subFolder2/?k=a&n=1&url="`
 4. In the files folder, create an .htaccess file if you don't have one. You can leave it empty if you need to create one.
 5. In *index.php* on line 6, change `if (@$_GET['k']=='YOURURLPASSWORD'){` to a combination you want to use as a password. The 'k' and 'YOURURLPASSWORD' will be used to access your site by adding /?k=YOURURLPASSWORD to your url.
 
