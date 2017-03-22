@@ -3,7 +3,7 @@ A simple solution with minimal setup to get a console on your website with file 
 ***
 ![ImagePreview1](http://i.imgur.com/HVEADcR.png "Image preview 1")
 ![ImagePreview2](http://i.imgur.com/o6bOoAT.png "Image preview 2")
-
+***
 ## features
 You can drag & drop uploads, list and/or search through your uploads, embed pictures, videos and audio directly in the search/list display.
 
