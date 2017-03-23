@@ -44,6 +44,9 @@ body{
     right: 77px;
 }
 #container{
+    
+}
+.wrapper{
 	position:fixed;
 	top:0;
 	left:0;
