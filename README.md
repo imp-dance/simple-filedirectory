@@ -27,10 +27,6 @@ You can currently only upload one file at the time.
 ## demo
 Demo can be found here: http://simple-filedirectory.underbakke.net/?k=YOURURLPASSWORD (the actual upload script is removed though because the link is public, it also has some files uploaded).
 
-## known bugs
- * Drag to upload sometimes doesn't work after using cls/clear.
- * Minified script.js has a problem with drag & drop upload.
-
 ## contributions 
 Any contributions to the repository would be welcome and appreciated. Things that need fixing:
 * More stable drag & drop upload
