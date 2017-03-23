@@ -14,18 +14,18 @@ if (@$_GET['k']=='YOURURLPASSWORD'){
 	<div id="input">
 		<input type="text" name="cmd" tabindex="1" id="cmd" />
 	</div>
+	<div class="dragtext">Drop here to upload</div>
+    	<form action="uploadscript.php" enctype="multipart/form-data" id="hiddenupload" method="post">
+		<input type="file" name="fileupload" tabindex="-1" id="fileupload" />
+	    <input type="hidden" name="fname" class="fname" />
+	    <input type="submit" tabindex="-1" class="submitbutton" />
+	</form>
 	<div id="container">
 	    <?php if ($msg == 1){ 
 	        echo $feed;
 	    }else{ ?>
 		<span class="cmd-cont">type 'help' to get a list of commands.</span>
 		<?php } ?>
-    <div class="dragtext">Drop here to upload</div>
-    <form action="uploadscript.php" enctype="multipart/form-data" id="hiddenupload" method="post">
-		<input type="file" name="fileupload" tabindex="-1" id="fileupload" />
-	    <input type="hidden" name="fname" class="fname" />
-	    <input type="submit" tabindex="-1" class="submitbutton" />
-	</form>
 	</div>
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	
