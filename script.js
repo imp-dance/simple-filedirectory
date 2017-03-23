@@ -1,13 +1,15 @@
-$(document).on('dragover', 'body', function(e) {
+$(document).on('dragover', '.wrapper', function(e) {
     e.preventDefault();
     $("#fileupload").addClass('ishovered');
     $(".dragtext").show();
 });
-$(document).on('dragleave', 'body', function(e) {
+$(document).on('dragleave', '.wrapper', function(e) {
+    e.preventDefault();
     $("#fileupload").removeClass('ishovered');
     $(".dragtext").hide();
 });
-$(document).on('drop', 'body', function(e) {
+$(document).on('drop', '.wrapper', function(e) {
+    /*e.preventDefault();*/
     $("#fileupload").removeClass('ishovered');
     $(".dragtext").hide();
 });
@@ -63,7 +65,7 @@ $(document).ready(function() {
     });
     var fname;
     $("#input input").focus();
-    $("#container").click(function() {
+    $(".wrapper").click(function() {
         $("#input input").focus();
     });
     $('#cmd').bind("leftKey", function(e) {
@@ -109,8 +111,8 @@ $(document).ready(function() {
         } else if (value.match("^clear") || value.match("^cls")) {
             if ($(".isup").attr("value") == "tr") {
                 $("#container").append("<span class='code'>" + value + "</span><span class='cmd-cont'>error: please answer yes/no first</span>");
-                history.pushState(null, null, '/?' + pushsNum);
-                pushsNum++;
+                /*history.pushState(null, null, '/?' + pushsNum);
+                pushsNum++;*/
                 updateScroll();
             } else {
                 $("#container").html("");
