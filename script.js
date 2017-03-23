@@ -1,4 +1,4 @@
-$(document).on('dragover', '#container', function(e) {
+$(document).on('dragover', 'body', function(e) {
     e.preventDefault();
     $("#fileupload").addClass('ishovered');
     $(".dragtext").show();
@@ -7,7 +7,7 @@ $(document).on('dragleave', 'body', function(e) {
     $("#fileupload").removeClass('ishovered');
     $(".dragtext").hide();
 });
-$(document).on('drop', '#container', function(e) {
+$(document).on('drop', 'body', function(e) {
     $("#fileupload").removeClass('ishovered');
     $(".dragtext").hide();
 });
@@ -279,11 +279,4 @@ $(function() {
     $("#cmd").autocomplete({
         source: availableTags
     });
-});
-$(document).on("keypress", ".listlink", function(event) {
-    if (event.which == 65) {
-        event.preventDefault();
-        $("#input input").focus();
-        console.log("cl");
-    }
 });
