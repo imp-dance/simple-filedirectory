@@ -1,6 +1,7 @@
 <?php
 ob_start();
 setlocale(LC_ALL,'en_US.UTF-8');
+include('keypass.php');
 if(isset($_POST))
 {
 $pic = $_POST['fname'];
@@ -13,7 +14,7 @@ if(move_uploaded_file($_FILES['fileupload']['tmp_name'], 'files/' . $filenamedir
     $response_array['status'] = 'success';
     $response_array['success'] = true;
     echo json_encode($response_array);
-    header("Location: /?k=a&n=1&url=".$filenamedir);
+    header("Location: /?".$kpk."=".$kpp."&n=1&url=".$filenamedir);
 }else{
     $response_array['status'] = 'error';
     $response_array['success'] = false;
