@@ -16,7 +16,7 @@ You can currently only upload one file at the time.
 2. Upload all the files onto your domain
 3. If you are not uploading the files to a root:
   * Go into uploadscript.php
-  * On line 16, edit `"Location: /?".$kpk."=".$kpp."&n=1&url="` to the correct location. For example: `"Location: /subFolder1/subFolder2/?".$kpk."=".$kpp."&n=1&url="
+  * On line 16, edit `"Location: /?".$kpk."=".$kpp."&n=1&url="` to the correct location. For example: `"Location: /subFolder1/subFolder2/?".$kpk."=".$kpp."&n=1&url="`
 4. In the files folder, create an .htaccess file. You can leave it empty if you want.
 5. In *keypass.php*, change the key and password to a combination you want.
 
