@@ -185,6 +185,7 @@ i{
  #listfileul li:nth-child(even){
     background:rgba(17, 17, 17, 0.5);
     color:#fff;
+    float:right;
 }
 #listfileul li:nth-child(even) a{
     color:#fff;
