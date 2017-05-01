@@ -1,8 +1,9 @@
 # simple-filedirectory
 A simple solution with minimal setup to get an interface on your website for file uploading/downloading - no database needed.
 ***
-![ImagePreview1](http://i.imgur.com/HVEADcR.png "Image preview 1")
-![ImagePreview2](http://i.imgur.com/o6bOoAT.png "Image preview 2")
+![ImagePreview1](http://i.imgur.com/CE62ujm.jpg "Image preview 1")
+![ImagePreview2](http://i.imgur.com/tpcMTUS.jpg "Image preview 2")
+![ImagePreview3](http://i.imgur.com/TYd7n9D.jpg "Image preview 3")
 ***
 ## features
 
