@@ -65,9 +65,7 @@ if (@$_GET[$kpk]==$kpp){
 	    <input type="hidden" name="isuploading" class="isup" value="fa" />
 
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script src="https://use.fontawesome.com/c67bc484ed.js"></script>
-	<script src="lines.js"></script>
-	<script src="dragimgs.js"></script>
+	<!-- YOUR FONT AWESOME LINK -->
     <?php
 	if ($msg == 1){
 	?>
