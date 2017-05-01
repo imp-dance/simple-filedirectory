@@ -1,0 +1,26 @@
+.cmd-cont, .listlink {
+    color: #b5e853 !important;
+}
+.cmd-cont:before {
+	color: rgba(162, 226, 38, 0.8) !important;
+}
+.cmd-cont strong{
+	color: #6aa06a !important;
+}
+@media screen and (min-width: 670px){
+	#listfileul li:nth-child(even) a {
+    	color: #b5e853 !important;
+	}
+}
+.openimgl, .openvidl, .openaudl, .openimgl:visited, .openvidl:visited, .openaudl:visited{
+	color: rgba(162, 226, 38, 0.8) !important;
+}
+#input input:focus {
+    border-top-color: #6aa06a !important;
+}
+.cmd-cont strong {
+    color: #49986d !important;
+}
+body{
+    background: #151515 !important;
+}

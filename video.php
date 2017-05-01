@@ -19,28 +19,24 @@
         $files = scandir($path);
         $files = sort($files);
         $files = array_diff(scandir($path), array('.', '..'));
-        echo("<ul id='listfileul'>");
+        echo("<div id='video'>");
         $o = 1;
         foreach($files as $item) {
             if ($o != 1){ 
                 $b = $o - 1;
                 $echoi = substr($item, 6, 80);
                 $extalone = strtolower(pathinfo($echoi, PATHINFO_EXTENSION));
-                if ($extalone == "png" || $extalone == "jpg" || $extalone == "gif"){
-                    echo "<li><i class='fa fa-file-image-o'></i> <a href='/files/".$item."' class='listlink' name='".$item."' tabindex='".$o."'>".$echoi."</a> <a href='#' tabindex='-1' data-imglink='/files/".$item."' class='openimgl'>(embed)</a></li>";
-                }else if($extalone == "wav" || $extalone == "mp3"){
-                    echo "<li><i class='fa fa-file-audio-o'></i> <a href='/files/".$item."' class='listlink' name='".$item."' tabindex='".$o."'>".$echoi."</a> <a href='#' tabindex='-1' data-audlink='/files/".$item."' class='openaudl'>(embed)</a></li>";
-                }else if($extalone == "mp4" || $extalone == "webm"){
-                    echo "<li><i class='fa fa-file-video-o'></i> <a href='/files/".$item."' class='listlink' name='".$item."' tabindex='".$o."'>".$echoi."</a> <a href='#' tabindex='-1' data-vidlink='/files/".$item."' class='openvidl'>(embed)</a></li>";
+                if($extalone == "mp4" || $extalone == "webm"){
+                    echo "<video preload='none' src='/files/".$item."' class='galleryvideo' controls name='".$item."' />";
                 }else{
-                    echo "<li><i class='fa fa-file-o'></i> <a href='/files/".$item."' class='listlink' tabindex='".$o."'>".$echoi."</a></li>";
+                    // nada
                 }
             }else{
                 
             }
             $o++;
         }
-        echo("</ul>");
+        echo("<div class='clear'></div></div>");
         ?>
         <input type="hidden" id="listisshowing" name="listisshowing" value="true" />
         

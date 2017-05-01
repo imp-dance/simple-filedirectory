@@ -1,0 +1,38 @@
+.cmd-cont, .listlink {
+    color: #555 !important;
+}
+.cmd-cont:before {
+	
+}
+.confirm{color:#fff !important;}
+.cmd-cont strong{
+	background:none !important;
+}
+@media screen and (min-width: 670px){
+	#listfileul li:nth-child(even) a {
+    	color: #555 !important;
+	}
+}
+#listfileul li{
+	background:rgba(238, 238, 238, 0.51) !important;
+}
+.openimgl, .openvidl, .openaudl, .openimgl:visited, .openvidl:visited, .openaudl:visited{
+	color: #555 !important;
+}
+#input input:focus {
+    border-top-color: #aaa !important;
+}
+.cmd-cont a{
+	color:#fff !important;
+}
+.dialogbox{
+	background:none !important;
+}
+body{
+    background: #f9f9f9 !important;
+    color: #333 !important;
+}
+#input input {
+	background:#fff !important;;
+	color:#333 !important;
+}

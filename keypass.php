@@ -1,4 +1,5 @@
 <?php
 /* http://yourdomain.com/?KEY=PASS */
-$kpk = "K"; /* KEY */
-$kpp = "YOURURLPASSWORD"; /* PASS */
+$kpk = "k"; /* KEY */
+$kpp = "1bc"; /* PASS */
+?>

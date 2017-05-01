@@ -1,0 +1,44 @@
+#abcabcabc-sourcekocode{
+  position:fixed;
+  bottom:0px;
+  left:0;
+  right:0;
+  background:#eee;
+  box-sizing:border-box;
+}
+#abcabcabc-sourcekocode textarea{
+  width:100%;
+  font-family:Courier, monospace;
+  box-sizing:border-box;
+  resize:none;
+  outline:none;
+  height:100px;
+  padding-bottom:25px;
+  border:none;
+  border-top:1px solid #eee;
+  background:#f9f9f9;
+}
+input[type='submit']{
+    width: 100%;
+    text-align: left;
+    background: #eee;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    border-top: 1px solid #ddd;
+}.newlink, .previewhtml{
+position: fixed;
+    right: 0;
+    font-family: sans-serif;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-right: none;
+}.previewhtml{
+  right:112px;bottom:64px;
+}

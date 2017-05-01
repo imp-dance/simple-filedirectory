@@ -1,7 +1,7 @@
 <?php
+include('keypass.php');
 ob_start();
 setlocale(LC_ALL,'en_US.UTF-8');
-include('keypass.php');
 if(isset($_POST))
 {
 $pic = $_POST['fname'];
@@ -21,6 +21,6 @@ if(move_uploaded_file($_FILES['fileupload']['tmp_name'], 'files/' . $filenamedir
     echo json_encode($response_array);
 } 
 }else{
-    echo "hm";
+    echo "pikk";
 }
 ?>
