@@ -24,13 +24,13 @@ You can currently only upload one file at the time, and there is a known bug wit
 
 ## setup
 ### in steps...
-1. Download all files as a zip or fork this repo.
-2. Upload all the files onto your domain
+1. **Download all files** as a zip or fork this repo.
+2. **Upload** all the files onto your domain
 3. If you are not uploading the files to a root:
   * Then I'm sorry but there will be a bunch of dead links. You could create a subdomain and upload the files as root there to make it easy on yourself. 
-4. In the files folder, create an .htaccess file. You can leave it empty if you want.
-5. In *keypass.php*, change the key and password to a combination you want.
-6. In index.php, on line 68, add your font-awesome embed-code (http://fontawesome.io/get-started/).
+4. In the files folder, **create an .htaccess file**. You can leave it empty if you want.
+5. In *keypass.php*, **change the key and password** to a combination you want.
+6. In index.php, on line 68, **add your font-awesome embed-code** (http://fontawesome.io/get-started/).
 
     > The 'k' and 'YOURURLPASSWORD' will be used to access your site by adding /?k=YOURURLPASSWORD to your url.
 
