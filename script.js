@@ -175,8 +175,6 @@ $(document).ready(function() {
     }
 
     function updateScroll() {
-	    
-			findAllImages();
 	  	if (typeof(Storage) !== "undefined") {
 			if (localStorage.getItem("dontscroll") == "true"){
 				
