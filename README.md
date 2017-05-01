@@ -1,5 +1,5 @@
 # simple-filedirectory
-Want to quickly set up a private file server with a nice interface one of your domains? simple-filedirectory is a simple solution with minimal setup to get an interface on your website for file uploading/downloading - no database setup needed.
+Want to quickly set up a private file server with a nice interface on one of your domains? simple-filedirectory is a simple solution with minimal setup to get an interface on your website for file uploading/downloading - no database setup needed.
 
 * [Features](#features)
 * [Setup](#setup)
