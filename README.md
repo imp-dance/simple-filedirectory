@@ -44,3 +44,4 @@ You can currently only upload one file at the time, and there is a known bug wit
 Any contributions to the repository would be welcome and appreciated. Things that need fixing:
 * More stable drag & drop upload
 * More stable design around the embeds in "list/search" (flexbox?)
+* Add ability to upload several files at once
