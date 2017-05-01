@@ -94,15 +94,15 @@ if (@$_GET[$kpk]==$kpp){
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
-	<?php if(empty($_GET['k'])){}else{?><style>
+	<?php if(empty($_GET[$kpk])){}else{?><style>
 	.pass:focus{    
 			box-shadow: 0px 0px 5px 3px #a80000;
 	}
 	</style><?php } ?>
 	<div class="login"<?php if(empty($_GET[$kpk])){}else{?>style="border-color:#a80000;" <?php } ?>>
 		<form method="get">
-			<label for="k"><?php if(empty($_GET[$kpk])){}else{?>wrong <?php } ?>password</label>
-			<input class="pass" autofocus type="password" name="k" />
+			<label for="<?php echo($kpk); ?>"><?php if(empty($_GET[$kpk])){}else{?>wrong <?php } ?>password</label>
+			<input class="pass" autofocus type="password" name="<?php echo($kpk); ?>" />
 		</form>
 	</div>
 </body>
