@@ -40,6 +40,8 @@ You can currently only upload one file at the time, and there is a known bug wit
 
 > The reason for the htaccess file is because you might want to change permissions in that folder, and list.php is programmed to ignore the first file, which always is .htaccess unless you don't have one, then it ignores one of your files. You could also of course go in and manually edit out the first ignore if you want to do that too.
 
+I'm sorry the setup is so wonky but honestly this was just made for myself, and I thought it was worth a share. If anyone wants to make the setup easier by contributing that would be awesome. 
+
 ## contributions 
 Any contributions to the repository would be welcome and appreciated. Things that need fixing:
 * More stable drag & drop upload
